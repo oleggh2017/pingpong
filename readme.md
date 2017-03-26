@@ -1,13 +1,15 @@
 # Pingpong 
 
 
+## Ubuntu 16.04
+
 ### Установка pingpong
 
-Установим зависимость для pingpong
+Установим зависимости для pingpong
 
 ``` shell
     sudo apt update
-    sudo apt install openjdk-8-jdk openjdk-8-jre openjdk-8jre-headless libgif7 ca-certificates-java java-common
+    sudo apt install openjdk-8-jdk openjdk-8-jre openjdk-8-jre-headless libgif7 ca-certificates-java java-common git
 ```
 
 Клонируем репозиторий
@@ -19,7 +21,7 @@ git clone https://github.com/oleggh2017/pingpong.git
 cd pingpong/packages
 sudo dpkg -i  pingpong_1_0_0.deb
 ```
-Установили pingpong перейдем браузере на http://localhost:8080/ и увидим сообщение Pong.
+Установили pingpong перейдем браузером на http://localhost:8080/ и увидим сообщение Pong.
 
 Cмотрим какая версия у нас установлена
 ``` shell
@@ -68,7 +70,7 @@ pingpong/now 1.1.0 all [installed,local]
 
 ``` shell
     sudo apt update
-    sudo apt install openjdk-8-jdk openjdk-8-jre openjdk-8jre-headless libgif7 ca-certificates-java java-common
+    sudo apt install openjdk-8-jdk openjdk-8-jre openjdk-8jre-headless libgif7 ca-certificates-java java-common git
 ```
 
 Установим утилиты для сборки.
